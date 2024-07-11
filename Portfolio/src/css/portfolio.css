@@ -2,3 +2,11 @@
 body,ul,ol,h1,h2,h3,h4,h5,h6,p,input,button{margin:0;padding:0}
 body,input,button{font-size:12px;font-family:Helvetica,Dotum,'돋움',"Apple SD Gothic Neo",sans-serif}
 
+.blind{
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(0, 0, 0, 0);
+}
